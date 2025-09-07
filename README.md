@@ -100,20 +100,7 @@ yarn test
 
 Test dosyaları `__tests__` klasöründe bulunur.
 
-## API Entegrasyonu
 
-Uygulama şu API endpoint'ini kullanır:
-
-\`\`\`
-POST http://deneme.com/sorgula
-Headers: 
-  - Content-Type: application/json
-  - ApiKey: 12356-95688-96545
-Body:
-  - fotografGetir: false
-  - gecmisListeGetir: true
-  - kimlikNo: string
-\`\`\`
 
 ## Hata Yönetimi
 
